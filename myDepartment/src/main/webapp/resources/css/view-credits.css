@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+table, td, th {
+	border: 1px solid #444444;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 5px;
+}
+
+th {
+	background-color: #3158a3;
+	color: white;
+}
+h1{
+	margin-left:20px;
+	margin-top:30px;
+}
+a:hover{
+	color:#00ff00;
+	
+}
+.front {
+	margin-top:20px;
+	text-decoration: none;
+	color: black;
+}
+.home {
+	text-align:right;
+	margin-right:50px;
+	font-size:20px;
+}
+.table {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 850px;
+}
+.info{
+	text-align:center;
+	color: #000000;
+}
+.button_div {
+	width: 100%;
+	text-align: center;
+}
+
+.button_div .button {
+	width: 200px;
+	height: 48px;
+	margin-top: 80px;
+	border-radius: 3px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #000;
+}
